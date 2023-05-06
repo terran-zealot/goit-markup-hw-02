@@ -1,3 +1,162 @@
 body {
-    font-family: sans-serif ;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #2E2F42;
 }
+
+/* =============Components============== */
+.link {
+    list-style: none;
+}
+
+.component-list {
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    
+    color: #2E2F42;
+    }
+    
+.component-list-item {
+    
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    
+    color: #434455;
+    }
+/* =============/Components============== */
+/* =============HEADER============== */
+.logo-web {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #4D5AE5;
+}
+
+.logo-studio {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #2E2F42;
+}
+
+.menu-item {
+    
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #2E2F42
+}
+.mail {
+    
+
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #434455;
+}
+
+.phone-number {
+
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #434455;
+}
+/* =============/HEADER============== */
+/* =============MAIN============== */
+
+.hero-section{
+    /* position: absolute; */
+/* width: 1440px;
+height: 603px;
+left: 0px;
+top: 72px; */
+
+/* NAVY BLUE */
+
+background: #2E2F42;
+}
+
+.hero-title {
+    
+font-weight: 600;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.hero-btn {
+    
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+/* gap: 10px;
+
+position: absolute;
+width: 170px;
+height: 51px;
+left: 635px;
+top: 432px; */
+
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+
+.title-section-3 {
+
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
+/* =============/MAIN============== */
+/* =============FOOTER============== */
+
+.footer-tips {
+
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+color: #E7E9FC;
+}
+/* =============/FOOTER============== */
