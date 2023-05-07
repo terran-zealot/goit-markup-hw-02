@@ -1,15 +1,23 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --main-color: #4D5AE5;
+    --secondary-color: #2e2f42;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    color: #2E2F42;
+    color: #434455;
+    background-color:  #FFFFFF;
 }
 
 /* =============Components============== */
-.link {
+.list {
     list-style: none;
 }
 
-.underline {
+.link {
     text-decoration: none;
 }
 
@@ -34,10 +42,10 @@ body {
 /* =============/Components============== */
 /* =============HEADER============== */
 .logo-web {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -47,10 +55,10 @@ color: #4D5AE5;
 }
 
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -63,10 +71,14 @@ color: #2E2F42;
     
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 
-color: #2E2F42
+color: var(--secondary-color)
+}
+
+.adress {
+    font-style: normal;
 }
 .mail {
     
