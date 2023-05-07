@@ -3,6 +3,7 @@
     --secondary-font: "Raleway", sans-serif;
     --main-color: #4D5AE5;
     --secondary-color: #2e2f42;
+    /* --navy-blue-color: #2E2F42; */
 }
 
 body {
@@ -11,6 +12,30 @@ body {
     color: #434455;
     background-color:  #FFFFFF;
 }
+
+/* =============HOVERS&FOCUS============== */
+.menu-item:hover,
+.menu-item:focus {
+    color: #404bbf ;
+}
+
+.adress:hover,
+.adress:focus {
+    color: #404bbf ;
+} 
+
+.hero-btn:hover, 
+.hero-btn:focus{
+background-color: #404BBF ;
+}
+
+.portfolio-menu-btn:hover,
+.portfolio-menu-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+/* =============/HOVERS&FOCUS============== */
 
 /* =============Components============== */
 .list {
@@ -23,16 +48,16 @@ body {
 
 .component-list {
 
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     
     color: #2E2F42;
     }
     
 .component-list-item {
-    
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -42,30 +67,32 @@ body {
 /* =============/Components============== */
 /* =============HEADER============== */
 .logo-web {
-    font-family: 'Raleway' sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-color: #4D5AE5;
+    color: var(--main-color);
 }
 
 .logo-studio {
-    font-family: 'Raleway' sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-color: #2E2F42;
+    color: var(--secondary-color);
 }
+
+
 
 .menu-item {
     
@@ -117,7 +144,7 @@ background: #2E2F42;
     
 font-weight: 600;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 
@@ -126,46 +153,56 @@ color: #FFFFFF;
 
 .hero-btn {
     
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 
-color: #FFFFFF;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-/* gap: 10px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    /* gap: 10px;
 
-position: absolute;
-width: 170px;
-height: 51px;
-left: 635px;
+    position: absolute;
+    width: 170px;
+    height: 51px;
+    left: 635px;
 top: 432px; */
+    cursor: pointer;
 
-
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
+.title-section-2 {
+    font-weight: 500;
+}
 
 .title-section-3 {
 
 font-weight: 600;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 
 color: #2E2F42;
 }
+
+.team-section {
+    background-color: #F4F4FD;
+}
 /* =============/MAIN============== */
 /* =============FOOTER============== */
+.footer {
+    background-color: #2e2f42;
+}
 
 .footer-tips {
 
@@ -183,13 +220,14 @@ color: #E7E9FC;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
+cursor: pointer;
 
-color: #4D5AE5;
+color: var(--main-color);
 
 display: flex;
 flex-direction: row;
@@ -203,7 +241,8 @@ border: 1px solid #E7E9FC;
 border-radius: 4px
 }
 
-.portfolio-menu-btn:hover, .portfolio-menu-btn:focus {
+/* .portfolio-menu-btn:hover, 
+.portfolio-menu-btn:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -217,16 +256,16 @@ border-radius: 4px
     color: #FFFFFF;
 
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-width: 69px;
-height: 48px;
-background: #404BBF;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+} */
 /* ================/MAIN-portfolio=================== */
