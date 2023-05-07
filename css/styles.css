@@ -69,6 +69,10 @@ background-color: #404BBF ;
     
     color: #434455;
     }
+
+.component-list-img {
+    background-color: #FFFFFF;
+}
 /* =============/Components============== */
 /* =============HEADER============== */
 .logo-web {
@@ -199,6 +203,7 @@ color: #2E2F42;
 .team-card {
     background-color: #FFFFFF;
 }
+
 /* =============/MAIN============== */
 /* =============FOOTER============== */
 .footer {
