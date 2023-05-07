@@ -9,6 +9,10 @@ body {
     list-style: none;
 }
 
+.underline {
+    text-decoration: none;
+}
+
 .component-list {
 
     font-weight: 600;
@@ -160,3 +164,57 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 /* =============/FOOTER============== */
+/* ================MAIN-portfolio=================== */
+
+.portfolio-menu-btn {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #4D5AE5;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 116px;
+height: 48px;
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px
+}
+
+.portfolio-menu-btn:hover, .portfolio-menu-btn:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+width: 69px;
+height: 48px;
+background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+/* ================/MAIN-portfolio=================== */
